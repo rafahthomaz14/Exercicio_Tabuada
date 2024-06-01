@@ -8,6 +8,7 @@ function tabuada(){
     }else{
         let n = Number(num.value)
         tab.innerHTML = ''
+        
         for(let c = 1; c <= 10; c++ ) {
             //criando um elemento dentro do option
             let item = document.createElement('option')
